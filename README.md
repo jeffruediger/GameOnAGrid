@@ -1,4 +1,2 @@
-GamesOnAGrid
-============
-
-GamesOnAGrid
+GameOnAGrid
+===========
