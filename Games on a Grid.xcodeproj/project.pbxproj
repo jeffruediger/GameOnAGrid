@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F5F103F18972376000A1825 /* GOGDotsScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5F103E18972376000A1825 /* GOGDotsScene.m */; };
+		1F5F10421897F619000A1825 /* GOGScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5F10411897F619000A1825 /* GOGScene.m */; };
+		1F5F104518981D47000A1825 /* GOGMatchThreeScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6E9BD518790769000C2BDA /* GOGMatchThreeScene.m */; };
+		1F5F104618981D47000A1825 /* GOGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6E9BCC18790769000C2BDA /* GOGAppDelegate.m */; };
+		1F5F104718981D47000A1825 /* GOGScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5F10411897F619000A1825 /* GOGScene.m */; };
+		1F5F104818981D47000A1825 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6E9BC818790769000C2BDA /* main.m */; };
+		1F5F104918981D47000A1825 /* GOGDotsScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F5F103E18972376000A1825 /* GOGDotsScene.m */; };
+		1F5F104A18981D47000A1825 /* GOGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6E9BD218790769000C2BDA /* GOGViewController.m */; };
+		1F5F104D18981D47000A1825 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F6E9BBC18790769000C2BDA /* CoreGraphics.framework */; };
+		1F5F104E18981D47000A1825 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F6E9BBE18790769000C2BDA /* UIKit.framework */; };
+		1F5F104F18981D47000A1825 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F6E9BC018790769000C2BDA /* SpriteKit.framework */; };
+		1F5F105018981D47000A1825 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F6E9BBA18790769000C2BDA /* Foundation.framework */; };
+		1F5F105218981D47000A1825 /* slot_wheel_stop_01.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1F62EFF918803F7F00516C16 /* slot_wheel_stop_01.wav */; };
+		1F5F105318981D47000A1825 /* pop.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1F62EFF718803F4A00516C16 /* pop.wav */; };
+		1F5F105418981D47000A1825 /* die.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1F62EFF518803DE300516C16 /* die.wav */; };
+		1F5F105518981D47000A1825 /* art.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 1F62F00D188050A200516C16 /* art.atlas */; };
+		1F5F105618981D47000A1825 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F6E9BC518790769000C2BDA /* InfoPlist.strings */; };
+		1F5F105718981D47000A1825 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F6E9BD918790769000C2BDA /* Images.xcassets */; };
+		1F5F105818981D47000A1825 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F6E9BCE18790769000C2BDA /* Main.storyboard */; };
+		1F5F105F18988026000A1825 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F5F105E18988026000A1825 /* GLKit.framework */; };
+		1F62EFF618803DE300516C16 /* die.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1F62EFF518803DE300516C16 /* die.wav */; };
+		1F62EFF818803F4A00516C16 /* pop.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1F62EFF718803F4A00516C16 /* pop.wav */; };
+		1F62EFFA18803F7F00516C16 /* slot_wheel_stop_01.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1F62EFF918803F7F00516C16 /* slot_wheel_stop_01.wav */; };
+		1F62F00E188050A200516C16 /* art.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 1F62F00D188050A200516C16 /* art.atlas */; };
+		1F6E9BBB18790769000C2BDA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F6E9BBA18790769000C2BDA /* Foundation.framework */; };
+		1F6E9BBD18790769000C2BDA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F6E9BBC18790769000C2BDA /* CoreGraphics.framework */; };
+		1F6E9BBF18790769000C2BDA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F6E9BBE18790769000C2BDA /* UIKit.framework */; };
+		1F6E9BC118790769000C2BDA /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F6E9BC018790769000C2BDA /* SpriteKit.framework */; };
+		1F6E9BC718790769000C2BDA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F6E9BC518790769000C2BDA /* InfoPlist.strings */; };
+		1F6E9BC918790769000C2BDA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6E9BC818790769000C2BDA /* main.m */; };
+		1F6E9BCD18790769000C2BDA /* GOGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6E9BCC18790769000C2BDA /* GOGAppDelegate.m */; };
+		1F6E9BD018790769000C2BDA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F6E9BCE18790769000C2BDA /* Main.storyboard */; };
+		1F6E9BD318790769000C2BDA /* GOGViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6E9BD218790769000C2BDA /* GOGViewController.m */; };
+		1F6E9BD618790769000C2BDA /* GOGMatchThreeScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F6E9BD518790769000C2BDA /* GOGMatchThreeScene.m */; };
+		1F6E9BDA18790769000C2BDA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F6E9BD918790769000C2BDA /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F5F103D18972376000A1825 /* GOGDotsScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOGDotsScene.h; sourceTree = "<group>"; };
+		1F5F103E18972376000A1825 /* GOGDotsScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOGDotsScene.m; sourceTree = "<group>"; };
+		1F5F10401897F619000A1825 /* GOGScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GOGScene.h; sourceTree = "<group>"; };
+		1F5F10411897F619000A1825 /* GOGScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GOGScene.m; sourceTree = "<group>"; };
+		1F5F105C18981D47000A1825 /* dots.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dots.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F5F105D18981D47000A1825 /* match3 copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "match3 copy-Info.plist"; path = "/src/Games on a Grid/match3 copy-Info.plist"; sourceTree = "<absolute>"; };
+		1F5F105E18988026000A1825 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		1F62EFF518803DE300516C16 /* die.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = die.wav; sourceTree = "<group>"; };
+		1F62EFF718803F4A00516C16 /* pop.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pop.wav; sourceTree = "<group>"; };
+		1F62EFF918803F7F00516C16 /* slot_wheel_stop_01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = slot_wheel_stop_01.wav; sourceTree = "<group>"; };
+		1F62F00D188050A200516C16 /* art.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = art.atlas; sourceTree = "<group>"; };
+		1F6E9BB718790769000C2BDA /* match3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = match3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F6E9BBA18790769000C2BDA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1F6E9BBC18790769000C2BDA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1F6E9BBE18790769000C2BDA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1F6E9BC018790769000C2BDA /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		1F6E9BC418790769000C2BDA /* Games on a Grid-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Games on a Grid-Info.plist"; sourceTree = "<group>"; };
+		1F6E9BC618790769000C2BDA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1F6E9BC818790769000C2BDA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F6E9BCA18790769000C2BDA /* Games on a Grid-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Games on a Grid-Prefix.pch"; sourceTree = "<group>"; };
+		1F6E9BCB18790769000C2BDA /* GOGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOGAppDelegate.h; sourceTree = "<group>"; };
+		1F6E9BCC18790769000C2BDA /* GOGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOGAppDelegate.m; sourceTree = "<group>"; };
+		1F6E9BCF18790769000C2BDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F6E9BD118790769000C2BDA /* GOGViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOGViewController.h; sourceTree = "<group>"; };
+		1F6E9BD218790769000C2BDA /* GOGViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOGViewController.m; sourceTree = "<group>"; };
+		1F6E9BD418790769000C2BDA /* GOGMatchThreeScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GOGMatchThreeScene.h; sourceTree = "<group>"; };
+		1F6E9BD518790769000C2BDA /* GOGMatchThreeScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GOGMatchThreeScene.m; sourceTree = "<group>"; };
+		1F6E9BD918790769000C2BDA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F5F104B18981D47000A1825 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F5F104D18981D47000A1825 /* CoreGraphics.framework in Frameworks */,
+				1F5F104E18981D47000A1825 /* UIKit.framework in Frameworks */,
+				1F5F104F18981D47000A1825 /* SpriteKit.framework in Frameworks */,
+				1F5F105018981D47000A1825 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F6E9BB418790769000C2BDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F5F105F18988026000A1825 /* GLKit.framework in Frameworks */,
+				1F6E9BBD18790769000C2BDA /* CoreGraphics.framework in Frameworks */,
+				1F6E9BBF18790769000C2BDA /* UIKit.framework in Frameworks */,
+				1F6E9BC118790769000C2BDA /* SpriteKit.framework in Frameworks */,
+				1F6E9BBB18790769000C2BDA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F6E9BAE18790769000C2BDA = {
+			isa = PBXGroup;
+			children = (
+				1F6E9BC218790769000C2BDA /* Games on a Grid */,
+				1F6E9BB918790769000C2BDA /* Frameworks */,
+				1F6E9BB818790769000C2BDA /* Products */,
+				1F5F105D18981D47000A1825 /* match3 copy-Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		1F6E9BB818790769000C2BDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F6E9BB718790769000C2BDA /* match3.app */,
+				1F5F105C18981D47000A1825 /* dots.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F6E9BB918790769000C2BDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F5F105E18988026000A1825 /* GLKit.framework */,
+				1F6E9BBA18790769000C2BDA /* Foundation.framework */,
+				1F6E9BBC18790769000C2BDA /* CoreGraphics.framework */,
+				1F6E9BBE18790769000C2BDA /* UIKit.framework */,
+				1F6E9BC018790769000C2BDA /* SpriteKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F6E9BC218790769000C2BDA /* Games on a Grid */ = {
+			isa = PBXGroup;
+			children = (
+				1F62F00D188050A200516C16 /* art.atlas */,
+				1F62EFF918803F7F00516C16 /* slot_wheel_stop_01.wav */,
+				1F62EFF718803F4A00516C16 /* pop.wav */,
+				1F62EFF518803DE300516C16 /* die.wav */,
+				1F6E9BCB18790769000C2BDA /* GOGAppDelegate.h */,
+				1F6E9BCC18790769000C2BDA /* GOGAppDelegate.m */,
+				1F6E9BCE18790769000C2BDA /* Main.storyboard */,
+				1F6E9BD118790769000C2BDA /* GOGViewController.h */,
+				1F6E9BD218790769000C2BDA /* GOGViewController.m */,
+				1F6E9BD418790769000C2BDA /* GOGMatchThreeScene.h */,
+				1F6E9BD518790769000C2BDA /* GOGMatchThreeScene.m */,
+				1F6E9BD918790769000C2BDA /* Images.xcassets */,
+				1F6E9BC318790769000C2BDA /* Supporting Files */,
+				1F5F103D18972376000A1825 /* GOGDotsScene.h */,
+				1F5F103E18972376000A1825 /* GOGDotsScene.m */,
+				1F5F10401897F619000A1825 /* GOGScene.h */,
+				1F5F10411897F619000A1825 /* GOGScene.m */,
+			);
+			path = "Games on a Grid";
+			sourceTree = "<group>";
+		};
+		1F6E9BC318790769000C2BDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F6E9BC418790769000C2BDA /* Games on a Grid-Info.plist */,
+				1F6E9BC518790769000C2BDA /* InfoPlist.strings */,
+				1F6E9BC818790769000C2BDA /* main.m */,
+				1F6E9BCA18790769000C2BDA /* Games on a Grid-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F5F104318981D47000A1825 /* dots */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F5F105918981D47000A1825 /* Build configuration list for PBXNativeTarget "dots" */;
+			buildPhases = (
+				1F5F104418981D47000A1825 /* Sources */,
+				1F5F104B18981D47000A1825 /* Frameworks */,
+				1F5F105118981D47000A1825 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dots;
+			productName = "Games on a Grid";
+			productReference = 1F5F105C18981D47000A1825 /* dots.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F6E9BB618790769000C2BDA /* match3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F6E9BF018790769000C2BDA /* Build configuration list for PBXNativeTarget "match3" */;
+			buildPhases = (
+				1F6E9BB318790769000C2BDA /* Sources */,
+				1F6E9BB418790769000C2BDA /* Frameworks */,
+				1F6E9BB518790769000C2BDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = match3;
+			productName = "Games on a Grid";
+			productReference = 1F6E9BB718790769000C2BDA /* match3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F6E9BAF18790769000C2BDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GOG;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Fuzzycube Software";
+			};
+			buildConfigurationList = 1F6E9BB218790769000C2BDA /* Build configuration list for PBXProject "Games on a Grid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F6E9BAE18790769000C2BDA;
+			productRefGroup = 1F6E9BB818790769000C2BDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F6E9BB618790769000C2BDA /* match3 */,
+				1F5F104318981D47000A1825 /* dots */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F5F105118981D47000A1825 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F5F105218981D47000A1825 /* slot_wheel_stop_01.wav in Resources */,
+				1F5F105318981D47000A1825 /* pop.wav in Resources */,
+				1F5F105418981D47000A1825 /* die.wav in Resources */,
+				1F5F105518981D47000A1825 /* art.atlas in Resources */,
+				1F5F105618981D47000A1825 /* InfoPlist.strings in Resources */,
+				1F5F105718981D47000A1825 /* Images.xcassets in Resources */,
+				1F5F105818981D47000A1825 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F6E9BB518790769000C2BDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F62EFFA18803F7F00516C16 /* slot_wheel_stop_01.wav in Resources */,
+				1F62EFF818803F4A00516C16 /* pop.wav in Resources */,
+				1F62EFF618803DE300516C16 /* die.wav in Resources */,
+				1F62F00E188050A200516C16 /* art.atlas in Resources */,
+				1F6E9BC718790769000C2BDA /* InfoPlist.strings in Resources */,
+				1F6E9BDA18790769000C2BDA /* Images.xcassets in Resources */,
+				1F6E9BD018790769000C2BDA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F5F104418981D47000A1825 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F5F104518981D47000A1825 /* GOGMatchThreeScene.m in Sources */,
+				1F5F104618981D47000A1825 /* GOGAppDelegate.m in Sources */,
+				1F5F104718981D47000A1825 /* GOGScene.m in Sources */,
+				1F5F104818981D47000A1825 /* main.m in Sources */,
+				1F5F104918981D47000A1825 /* GOGDotsScene.m in Sources */,
+				1F5F104A18981D47000A1825 /* GOGViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F6E9BB318790769000C2BDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F6E9BD618790769000C2BDA /* GOGMatchThreeScene.m in Sources */,
+				1F6E9BCD18790769000C2BDA /* GOGAppDelegate.m in Sources */,
+				1F5F10421897F619000A1825 /* GOGScene.m in Sources */,
+				1F6E9BC918790769000C2BDA /* main.m in Sources */,
+				1F5F103F18972376000A1825 /* GOGDotsScene.m in Sources */,
+				1F6E9BD318790769000C2BDA /* GOGViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1F6E9BC518790769000C2BDA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F6E9BC618790769000C2BDA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1F6E9BCE18790769000C2BDA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F6E9BCF18790769000C2BDA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F5F105A18981D47000A1825 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Games on a Grid/Games on a Grid-Prefix.pch";
+				INFOPLIST_FILE = "match3 copy-Info.plist";
+				PRODUCT_NAME = dots;
+				PROVISIONING_PROFILE = "";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1F5F105B18981D47000A1825 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Games on a Grid/Games on a Grid-Prefix.pch";
+				INFOPLIST_FILE = "match3 copy-Info.plist";
+				PRODUCT_NAME = dots;
+				PROVISIONING_PROFILE = "";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1F6E9BEE18790769000C2BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+			};
+			name = Debug;
+		};
+		1F6E9BEF18790769000C2BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F6E9BF118790769000C2BDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Games on a Grid/Games on a Grid-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					MATCH3,
+				);
+				INFOPLIST_FILE = "Games on a Grid/Games on a Grid-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1F6E9BF218790769000C2BDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Games on a Grid/Games on a Grid-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = MATCH3;
+				INFOPLIST_FILE = "Games on a Grid/Games on a Grid-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F5F105918981D47000A1825 /* Build configuration list for PBXNativeTarget "dots" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F5F105A18981D47000A1825 /* Debug */,
+				1F5F105B18981D47000A1825 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F6E9BB218790769000C2BDA /* Build configuration list for PBXProject "Games on a Grid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F6E9BEE18790769000C2BDA /* Debug */,
+				1F6E9BEF18790769000C2BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F6E9BF018790769000C2BDA /* Build configuration list for PBXNativeTarget "match3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F6E9BF118790769000C2BDA /* Debug */,
+				1F6E9BF218790769000C2BDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F6E9BAF18790769000C2BDA /* Project object */;
+}
