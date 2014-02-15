@@ -26,7 +26,7 @@
         myLabel.position = CGPointMake(CGRectGetMidX(self.frame),
                                        CGRectGetMaxY(self.frame)-30);
         myLabel.fontColor = [SKColor blackColor];
-        _scoreLabel = myLabel;
+        self.scoreLabel = myLabel;
         
         self.gridData = [self createGridWithSize:CGSizeMake(320, 320)
                                         tileData:@"ABABABBCBCBCCDCDCDDADADAABABABBCBCBC"

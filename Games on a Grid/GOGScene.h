@@ -19,7 +19,7 @@
 
 @property (nonatomic, strong) NSMutableArray* touchedTiles;
 @property (nonatomic, weak) UITouch* currentTouch;
-@property (nonatomic, weak) SKLabelNode* scoreLabel;
+@property (nonatomic, strong) SKLabelNode* scoreLabel;
 @property (nonatomic, strong) NSMutableArray* bombFrames;
 @property (nonatomic, strong) SKAction* bombAnim;
 
